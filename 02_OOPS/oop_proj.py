@@ -3,7 +3,7 @@ class ChatBook:
 
     def __init__(self):
         self.id = ChatBook.__user_id
-        ChatBook.__user_id =+ 1
+        ChatBook.__user_id +=1
         self.__name = "sam"    # <---- Encapsulation
         self.username = ""
         self.password = ""
@@ -92,4 +92,3 @@ class ChatBook:
         print("\n")
         self.menu()
 
-obj = ChatBook()

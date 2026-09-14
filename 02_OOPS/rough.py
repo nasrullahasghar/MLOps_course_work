@@ -1,6 +1,5 @@
 from oop_proj import ChatBook
 
-obj = ChatBook()
 
 # <=================> Encapsulation <=================> 
 # print(obj._ChatBook__name) # <--------- We can access hidden attribute like this
