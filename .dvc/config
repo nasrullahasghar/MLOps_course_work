@@ -1,4 +1,7 @@
 [core]
-    remote = myremote
+    remote = dvcstore
 ['remote "myremote"']
     url = ../03_DVC/S3
+['remote "dvcstore"']
+    url = s3://dvc-s3-user
+    region = eu-north-1
