@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # install all the needed packages required for the docker image specified in the requirements.txt
-RUN pip install --no--cache--dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Make port 5000 avaiable to the world outside this container
 EXPOSE 5000
